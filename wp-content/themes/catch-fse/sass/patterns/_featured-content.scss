@@ -1,0 +1,53 @@
+/* --- Featured Content Two
+-------------------------------------------------------- */
+.wp-block-columns.featured-content-two-columns .wp-block-catch-fse-featured-content .wp-block-image {
+    margin-bottom: 0;
+}
+
+/* --- Featured Content Three
+-------------------------------------------------------- */
+
+.wp-block-columns.featured-content-three-columns .wp-block-catch-fse-featured-content .wp-block-image {
+    margin-bottom: 0;
+}
+
+.wp-block-catch-fse-featured-content {
+    position: relative;
+    overflow: hidden;
+}
+
+.wp-block-featured-content {
+    background-image: linear-gradient(-180deg, transparent 15%, #000 130%);
+    bottom: 0;
+    display: block;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+    opacity: 0;
+    visibility: hidden;
+    transform: translate3d(0,100px,0);
+    transition-duration: 1s;
+}
+
+.wp-block-catch-fse-featured-content:hover .wp-block-featured-content {
+    visibility: visible;
+    opacity: 1;
+    transform: translateZ(0);
+}
+
+.wp-block-catch-fse-featured-content .wp-block-image {
+    overflow: hidden;
+}
+
+.wp-block-catch-fse-featured-content .wp-block-image img {
+    transition: all 0.5s ease;
+}
+
+.wp-block-catch-fse-featured-content .wp-block-image:hover img {
+  -webkit-filter: blur(2px);
+  filter: blur(2px);
+  transform: scale(1.1);
+}
+
+

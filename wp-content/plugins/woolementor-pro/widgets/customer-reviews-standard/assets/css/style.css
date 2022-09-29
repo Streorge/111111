@@ -1,0 +1,226 @@
+.wl-crvs-review-single {
+    border: 1px solid #ddd;
+    background: #fff;
+    position: relative;
+    font-family: "Roboto", Sans-serif;
+    border-radius: 10px;
+    margin: 60px 10px;
+    margin-bottom: 0;
+}
+.wl-crvs-review-img img {
+    max-width: 100%;
+    border-radius: 100%;
+}
+.wl-crvs-review-inner {
+    padding: 15px;
+    margin-top: 70px;
+}
+.wl-crvs-review-img {
+    margin: auto;
+    position: absolute;
+    top: -45px;
+     left: 0; 
+    right: 0;
+     text-align: center; 
+}
+.wl-crvs-review-img img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 3px 3px 7px -3px rgba(0,0,0,0.5);
+}
+.wl-crvs-review-author h3 {
+    margin: 0;
+    line-height: 1;
+    font-size: 15px;
+    font-weight: 600;
+}
+.wl-crvs-review-author-details span {
+    color: #F2295B;
+    font-size: 13px;
+}
+.wl-crvs-review-author-rating {
+    display: inline-block;
+    font-size: 11px;
+    background: #FFF2DE;
+    border-radius: 10px;
+    padding: 2px 15px;
+    border: 1px solid #ffa620;
+    margin-left: 47px;
+}
+.wl-crvs-review-author-rating i {
+    color: #FFA620;
+    margin-right: 3px;
+}
+.wl-crvs-review-author-details {
+    margin-bottom: 15px;
+    margin-left: 50px;
+}
+.wl-crvs-review-date {
+    color: #A7A7A7;
+    font-size: 12px;
+    font-family: "Roboto", Sans-serif;
+    text-transform: uppercase;
+}
+.wl-crvs-review-details {
+    font-size: 13px;
+    margin: 25px 0;
+}
+.wl-crvs-review-details p {
+    margin: 0;
+    line-height: 20px;
+}
+.wl-crvs-review-inner{position:relative;}
+.wl-crvs-review-quote {
+    color: #E2498A;
+    font-size: 30px;
+    width: 100%;
+    display: block;
+}
+.wl-crvs-review-quote.wl-right {
+    text-align: right;
+}
+.wl-crvs-review-single:hover .wl-crvs-review-quote{color:#fff; transition-duration: .5s;}
+
+/* right img */
+.center-all .wl-crvs-review-img {
+    right: 0;
+    left: 0;
+}
+.wl-right .wl-crvs-review-img {
+    right: 25px;
+    left: auto;
+}
+.wl-left .wl-crvs-review-img {
+    left: 25px;
+    right: auto;
+}
+.center .wl-crvs-review-inner{text-align: center;}
+.center .wl-crvs-review-author-details{padding-left:0;}
+
+/* hover
+ */
+.wl-crvs-review-single:hover{background:#E2498A;color:#fff; border-color:#E2498A; transition-duration: .5s; }
+.wl-crvs-review-single:hover .wl-crvs-review-author-rating {
+    background: transparent;
+    transition-duration: .5s;
+    border: 1px solid #fff;
+    color: #fff;
+}
+.wl-crvs-review-single:hover .wl-crvs-review-author-rating strong{color:#fff;}
+.wl-crvs-review-single:hover .wl-crvs-review-author-rating i {color:#fff;}
+.wl-crvs-review-single:hover .wl-crvs-review-author-details span {color:#fff; transition-duration: .5s;}
+.wl-crvs-review-single:hover .wl-crvs-review-date {color: #d2d2d2; transition-duration: .5s;}
+.wl-crvs-review-single:hover .wl-crvs-review-inner:before, .wl-crvs-review-single:hover .wl-crvs-review-inner:after {color: #fff; transition-duration: .5s;}
+
+/*slick slider*/
+.wl-crvs-review-silder .slick-prev.slick-arrow {
+    position: absolute;
+    left: 20px;
+    z-index: 9999;
+}
+.wl-crvs-review-silder .slick-next.slick-arrow {
+    position: absolute;
+    right: 20px;
+    z-index: 9999;
+}
+.slick-prev::before, .slick-next::before {
+    color: #f00 !important;
+}
+.wl-crvs-review-silder .slick-next, .wl-crvs-review-silder .slick-prev {
+    z-index: 999;
+    padding: 0;
+    border: 1px solid rgba(147, 140, 140, 0.8);
+    border-radius: 50%;
+    background-color: rgba(255,255,255,.8);
+    color: #8c8c8c;
+    text-align: center;
+    font-size: 12px;
+    opacity: 1;
+}
+.wl-crvs-review-silder .slick-next::before, .wl-crvs-review-silder .slick-prev::before {
+    content: "";
+}
+.wl-crvs-review-silder .slick-next, .wl-crvs-review-silder .slick-prev {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+}
+.wl-crvs-review-silder .slick-dots li button::before {
+    color: #1b1b1b;
+    opacity: 1;
+}
+.wl-crvs-review-silder .slick-dots .slick-active button::before, .wl-crvs-review-silder .slick-dots li button:hover::before {
+    -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+.slick-dots {
+    position: absolute;
+    bottom: -25px;
+    list-style: none;
+    display: block;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+.slick-dots li {
+    position: relative;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    margin: 0 5px;
+    padding: 0;
+    cursor: pointer;
+}
+.slick-dots li button {
+    border: 0;
+    background: transparent;
+    display: block;
+    height: 20px;
+    width: 20px;
+    outline: none;
+    line-height: 0px;
+    font-size: 0px;
+    color: transparent;
+    padding: 5px;
+    cursor: pointer;
+}
+.slick-dots li button::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "•";
+    width: 20px;
+    height: 20px;
+    font-family: "slick";
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: black;
+    opacity: 0.25;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.slick-prev, .slick-next {
+    position: absolute;
+    display: block;
+    height: 20px;
+    width: 20px;
+    line-height: 0px;
+    font-size: 0px;
+    cursor: pointer;
+    background: transparent;
+    color: transparent;
+    top: 50%;
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    padding: 0;
+    border: none;
+    outline: none;
+}
+/*end slick slider*/

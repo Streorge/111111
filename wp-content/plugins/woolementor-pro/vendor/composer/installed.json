@@ -1,0 +1,367 @@
+[
+    {
+        "name": "chillerlan/php-qrcode",
+        "version": "4.3.3",
+        "version_normalized": "4.3.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/chillerlan/php-qrcode.git",
+            "reference": "6356b246948ac1025882b3f55e7c68ebd4515ae3"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/chillerlan/php-qrcode/zipball/6356b246948ac1025882b3f55e7c68ebd4515ae3",
+            "reference": "6356b246948ac1025882b3f55e7c68ebd4515ae3",
+            "shasum": ""
+        },
+        "require": {
+            "chillerlan/php-settings-container": "^2.1",
+            "ext-mbstring": "*",
+            "php": "^7.4 || ^8.0"
+        },
+        "require-dev": {
+            "phan/phan": "^5.3",
+            "phpunit/phpunit": "^9.5",
+            "setasign/fpdf": "^1.8.2"
+        },
+        "suggest": {
+            "chillerlan/php-authenticator": "Yet another Google authenticator! Also creates URIs for mobile apps.",
+            "setasign/fpdf": "Required to use the QR FPDF output."
+        },
+        "time": "2021-11-25T22:38:09+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "chillerlan\\QRCode\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Kazuhiko Arase",
+                "homepage": "https://github.com/kazuhikoarase"
+            },
+            {
+                "name": "Smiley",
+                "email": "smiley@chillerlan.net",
+                "homepage": "https://github.com/codemasher"
+            },
+            {
+                "name": "Contributors",
+                "homepage": "https://github.com/chillerlan/php-qrcode/graphs/contributors"
+            }
+        ],
+        "description": "A QR code generator. PHP 7.4+",
+        "homepage": "https://github.com/chillerlan/php-qrcode",
+        "keywords": [
+            "phpqrcode",
+            "qr",
+            "qr code",
+            "qrcode",
+            "qrcode-generator"
+        ],
+        "funding": [
+            {
+                "url": "https://www.paypal.com/donate?hosted_button_id=WLYUNAT9ZTJZ4",
+                "type": "custom"
+            },
+            {
+                "url": "https://ko-fi.com/codemasher",
+                "type": "ko_fi"
+            }
+        ]
+    },
+    {
+        "name": "chillerlan/php-settings-container",
+        "version": "2.1.3",
+        "version_normalized": "2.1.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/chillerlan/php-settings-container.git",
+            "reference": "125dd573b45ffc7cabecf385986a356ba2c6f602"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/chillerlan/php-settings-container/zipball/125dd573b45ffc7cabecf385986a356ba2c6f602",
+            "reference": "125dd573b45ffc7cabecf385986a356ba2c6f602",
+            "shasum": ""
+        },
+        "require": {
+            "ext-json": "*",
+            "php": "^7.4 || ^8.0"
+        },
+        "require-dev": {
+            "phan/phan": "^5.3",
+            "phpunit/phpunit": "^9.5"
+        },
+        "time": "2022-03-09T13:18:58+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "chillerlan\\Settings\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Smiley",
+                "email": "smiley@chillerlan.net",
+                "homepage": "https://github.com/codemasher"
+            }
+        ],
+        "description": "A container class for immutable settings objects. Not a DI container. PHP 7.4+",
+        "homepage": "https://github.com/chillerlan/php-settings-container",
+        "keywords": [
+            "PHP7",
+            "Settings",
+            "configuration",
+            "container",
+            "helper"
+        ],
+        "funding": [
+            {
+                "url": "https://www.paypal.com/donate?hosted_button_id=WLYUNAT9ZTJZ4",
+                "type": "custom"
+            },
+            {
+                "url": "https://ko-fi.com/codemasher",
+                "type": "ko_fi"
+            }
+        ]
+    },
+    {
+        "name": "codexpert/plugin",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://bitbucket.org/codexpertio/codexpert-plugin.git",
+            "reference": "d8f167ca0af47dc4b9ad77c85c4508b410b7968c"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://bitbucket.org/codexpertio/codexpert-plugin/get/d8f167ca0af47dc4b9ad77c85c4508b410b7968c.zip",
+            "reference": "d8f167ca0af47dc4b9ad77c85c4508b410b7968c",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2022-05-08T05:06:29+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "src/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-3.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "Codexpert",
+                "email": "hello@codexpert.io",
+                "homepage": "https://codexpert.io",
+                "role": "Developer"
+            }
+        ],
+        "description": "Plugin tools for Codexpert",
+        "homepage": "https://bitbucket.org/codexpertio/codexpert-plugin",
+        "keywords": [
+            "codexpert",
+            "plugin"
+        ]
+    },
+    {
+        "name": "curl/curl",
+        "version": "2.3.3",
+        "version_normalized": "2.3.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/php-mod/curl.git",
+            "reference": "ec22ad27dead47093f0944f5e651df4b12846f5a"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/php-mod/curl/zipball/ec22ad27dead47093f0944f5e651df4b12846f5a",
+            "reference": "ec22ad27dead47093f0944f5e651df4b12846f5a",
+            "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*",
+            "php": "^5.6 | ^7.0 | ^8.0"
+        },
+        "require-dev": {
+            "yoast/phpunit-polyfills": "^0.2.0"
+        },
+        "time": "2021-11-30T20:19:35+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Curl": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "php-curl-class",
+                "homepage": "https://github.com/php-curl-class"
+            },
+            {
+                "name": "Hassan Amouhzi",
+                "email": "hassan@anezi.net",
+                "homepage": "http://hassan.amouhzi.com"
+            },
+            {
+                "name": "user52",
+                "homepage": "https://github.com/user52"
+            }
+        ],
+        "description": "cURL class for PHP",
+        "homepage": "https://github.com/php-mod/curl",
+        "keywords": [
+            "curl",
+            "dot"
+        ]
+    },
+    {
+        "name": "nguyenary/qr-code-monkey",
+        "version": "v1.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/nguyenary/QRCodeMonkey.git",
+            "reference": "77a3941f73eba25d1ef749bb75de8f5a7755c2df"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/nguyenary/QRCodeMonkey/zipball/77a3941f73eba25d1ef749bb75de8f5a7755c2df",
+            "reference": "77a3941f73eba25d1ef749bb75de8f5a7755c2df",
+            "shasum": ""
+        },
+        "require": {
+            "curl/curl": "^2.3",
+            "php": ">=7.2"
+        },
+        "suggest": {
+            "ext-json": "*"
+        },
+        "time": "2021-09-01T14:50:17+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "nguyenary\\QRCodeMonkey\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "nguyenary",
+                "email": "nguyenary.dev@gmail.com"
+            }
+        ],
+        "description": "PHP Library for free generator QR Code from qrcode-monkey.com"
+    },
+    {
+        "name": "picqer/php-barcode-generator",
+        "version": "v2.2.2",
+        "version_normalized": "2.2.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/picqer/php-barcode-generator.git",
+            "reference": "877fcb0e9279ac40646361a7d7a7c6d0e1639836"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/picqer/php-barcode-generator/zipball/877fcb0e9279ac40646361a7d7a7c6d0e1639836",
+            "reference": "877fcb0e9279ac40646361a7d7a7c6d0e1639836",
+            "shasum": ""
+        },
+        "require": {
+            "ext-mbstring": "*",
+            "php": "^7.3|^8.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^9.5"
+        },
+        "suggest": {
+            "ext-bcmath": "Barcode IMB (Intelligent Mail Barcode) needs bcmath extension",
+            "ext-gd": "For JPG and PNG generators, GD or Imagick is required",
+            "ext-imagick": "For JPG and PNG generators, GD or Imagick is required"
+        },
+        "time": "2022-05-06T07:19:24+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Picqer\\Barcode\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "LGPL-3.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "Nicola Asuni",
+                "email": "info@tecnick.com",
+                "homepage": "http://nicolaasuni.tecnick.com"
+            },
+            {
+                "name": "Casper Bakker",
+                "email": "info@picqer.com",
+                "homepage": "https://picqer.com"
+            }
+        ],
+        "description": "An easy to use, non-bloated, barcode generator in PHP. Creates SVG, PNG, JPG and HTML images from the most used 1D barcode standards.",
+        "homepage": "https://github.com/picqer/php-barcode-generator",
+        "keywords": [
+            "CODABAR",
+            "Code11",
+            "Code93",
+            "EAN13",
+            "KIX",
+            "KIXCODE",
+            "MSI",
+            "POSTNET",
+            "Pharma",
+            "Standard 2 of 5",
+            "barcode",
+            "barcode generator",
+            "code128",
+            "code39",
+            "ean",
+            "html",
+            "jpeg",
+            "jpg",
+            "php",
+            "png",
+            "svg",
+            "upc"
+        ],
+        "funding": [
+            {
+                "url": "https://github.com/casperbakker",
+                "type": "github"
+            }
+        ]
+    }
+]

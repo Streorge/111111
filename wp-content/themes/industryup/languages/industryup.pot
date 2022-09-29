@@ -1,0 +1,609 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Industryup\n"
+"POT-Creation-Date: 2022-01-17 20:56+0530\n"
+"PO-Revision-Date: 2022-01-17 20:56+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:15 inc/ansar/customize/industryup_customize_archive.php:87
+#: inc/ansar/customize/industryup_customize_archive.php:93
+#: inc/ansar/enqueue.php:193
+msgid "404"
+msgstr ""
+
+#: 404.php:27
+msgid "4"
+msgstr ""
+
+#: 404.php:28
+msgid "Oops! Page not found"
+msgstr ""
+
+#: 404.php:29
+msgid "We are sorry, but the page you are looking for does not exist."
+msgstr ""
+
+#: 404.php:30
+msgid "Go Back"
+msgstr ""
+
+#: comments.php:33
+#, php-format
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr ""
+
+#: comments.php:39
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:56 comments.php:77
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:59 comments.php:80
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:60 comments.php:81
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:92
+msgid "Comments are closed."
+msgstr ""
+
+#: content.php:34
+msgid "by"
+msgstr ""
+
+#: content.php:39
+msgid "Comments"
+msgstr ""
+
+#: content.php:47
+msgid "Read More"
+msgstr ""
+
+#: content.php:48
+msgid "Pages:"
+msgstr ""
+
+#: footer.php:36
+msgid "https://wordpress.org/"
+msgstr ""
+
+#: footer.php:39
+#, php-format
+msgid "Proudly powered by %s"
+msgstr ""
+
+#: footer.php:45
+#, php-format
+msgid "Theme: %1$s by %2$s."
+msgstr ""
+
+#: footer.php:45
+msgid "https://themeansar.com/"
+msgstr ""
+
+#: functions.php:83
+msgid "Primary menu"
+msgstr ""
+
+#: functions.php:191
+msgid "Sidebar Widget Area"
+msgstr ""
+
+#: functions.php:201
+msgid "Footer Widget Area"
+msgstr ""
+
+#: header.php:25
+msgid "Skip to content"
+msgstr ""
+
+#: inc/ansar/admin/class-getting-start-plugin-helper.php:93
+msgid "Install and activate"
+msgstr ""
+
+#: inc/ansar/admin/class-getting-start-plugin-helper.php:97
+#: inc/ansar/customize/industryup_plugin_recommend.php:16
+msgid "Activate"
+msgstr ""
+
+#: inc/ansar/admin/class-getting-start-plugin-helper.php:112
+#: inc/ansar/customize/industryup_plugin_recommend.php:17
+msgid "Deactivate"
+msgstr ""
+
+#: inc/ansar/admin/getting-started.php:19
+#, php-format
+msgid "About %1$s %2$s"
+msgstr ""
+
+#: inc/ansar/admin/getting-started.php:21
+#, php-format
+msgid "Welcome to %1$s"
+msgstr ""
+
+#: inc/ansar/admin/getting-started.php:37
+msgid "Activating "
+msgstr ""
+
+#: inc/ansar/admin/getting-started.php:89
+#, php-format
+msgid "Welcome to %1$s - Version %2$s"
+msgstr ""
+
+#: inc/ansar/admin/getting-started.php:99
+msgid "Getting Started"
+msgstr ""
+
+#: inc/ansar/admin/getting-started.php:104
+msgid "Elementor Demo"
+msgstr ""
+
+#: inc/ansar/admin/tabs/getting-started-panel.php:10
+msgid "Elementor Demos"
+msgstr ""
+
+#: inc/ansar/admin/tabs/getting-started-panel.php:11
+msgid "Demo Content"
+msgstr ""
+
+#: inc/ansar/admin/tabs/getting-started-panel.php:14
+msgid "Industryup Documentation"
+msgstr ""
+
+#: inc/ansar/admin/tabs/getting-started-panel.php:15
+msgid "Industryup Support"
+msgstr ""
+
+#: inc/ansar/admin/tabs/getting-started-panel.php:15
+msgid "Documentation"
+msgstr ""
+
+#: inc/ansar/admin/tabs/recommended-plugins-panel.php:39
+msgid "To use the Elementor layouts and pages, install the Elementor plugin."
+msgstr ""
+
+#: inc/ansar/admin/tabs/recommended-plugins-panel.php:44
+msgid ""
+"To use the Readymade Elementor Template Install and activate Ansar Demo "
+"Import plugin then go to appreance menu, click"
+msgstr ""
+
+#: inc/ansar/admin/tabs/recommended-plugins-panel.php:45
+msgid "Ansar Demo Importer"
+msgstr ""
+
+#: inc/ansar/admin/tabs/recommended-plugins-panel.php:46
+msgid "and Import or Install Elementor Template according to your need."
+msgstr ""
+
+#: inc/ansar/customize-pro/class-customize.php:64
+msgid "Industryup Pro Available!"
+msgstr ""
+
+#: inc/ansar/customize-pro/class-customize.php:65
+msgid "Go Pro"
+msgstr ""
+
+#: inc/ansar/customize/industryup_customize_archive.php:8
+msgid "Archive page title"
+msgstr ""
+
+#: inc/ansar/customize/industryup_customize_archive.php:16
+#: inc/ansar/customize/industryup_customize_archive.php:22
+#: inc/ansar/enqueue.php:133
+msgid "Archive"
+msgstr ""
+
+#: inc/ansar/customize/industryup_customize_archive.php:30
+#: inc/ansar/customize/industryup_customize_archive.php:36
+#: inc/ansar/enqueue.php:151
+msgid "Category"
+msgstr ""
+
+#: inc/ansar/customize/industryup_customize_archive.php:44
+#: inc/ansar/enqueue.php:157
+msgid "All posts by"
+msgstr ""
+
+#: inc/ansar/customize/industryup_customize_archive.php:50
+msgid "Author"
+msgstr ""
+
+#: inc/ansar/customize/industryup_customize_archive.php:58
+#: inc/ansar/customize/industryup_customize_archive.php:64
+#: inc/ansar/enqueue.php:163
+msgid "Tag"
+msgstr ""
+
+#: inc/ansar/customize/industryup_customize_archive.php:73
+#: inc/ansar/enqueue.php:183
+msgid "Search results for"
+msgstr ""
+
+#: inc/ansar/customize/industryup_customize_archive.php:79
+msgid "Search"
+msgstr ""
+
+#: inc/ansar/customize/industryup_customize_archive.php:102
+#: inc/ansar/customize/industryup_customize_archive.php:108
+#: inc/ansar/enqueue.php:169
+msgid "Shop"
+msgstr ""
+
+#: inc/ansar/customize/industryup_customize_copyright.php:6
+msgid "Footer Settings"
+msgstr ""
+
+#: inc/ansar/customize/industryup_customize_copyright.php:10
+msgid "Social Icons"
+msgstr ""
+
+#: inc/ansar/customize/industryup_customize_copyright.php:28
+#: inc/ansar/customize/industryup_customize_general.php:44
+msgid "Hide / Show"
+msgstr ""
+
+#: inc/ansar/customize/industryup_customize_copyright.php:45
+msgid "Facebook URL"
+msgstr ""
+
+#: inc/ansar/customize/industryup_customize_copyright.php:61
+#: inc/ansar/customize/industryup_customize_copyright.php:94
+#: inc/ansar/customize/industryup_customize_copyright.php:126
+#: inc/ansar/customize/industryup_customize_copyright.php:159
+msgid "Open link in a new tab"
+msgstr ""
+
+#: inc/ansar/customize/industryup_customize_copyright.php:78
+msgid "Twitter URL"
+msgstr ""
+
+#: inc/ansar/customize/industryup_customize_copyright.php:110
+msgid "Linkedin URL"
+msgstr ""
+
+#: inc/ansar/customize/industryup_customize_copyright.php:143
+msgid "Instagram URL"
+msgstr ""
+
+#: inc/ansar/customize/industryup_customize_copyright.php:166
+msgid "Background"
+msgstr ""
+
+#: inc/ansar/customize/industryup_customize_copyright.php:180
+msgid "Background Image"
+msgstr ""
+
+#: inc/ansar/customize/industryup_customize_copyright.php:187
+msgid "Widget column layout"
+msgstr ""
+
+#: inc/ansar/customize/industryup_customize_copyright.php:203
+msgid "Select Column Layout"
+msgstr ""
+
+#: inc/ansar/customize/industryup_customize_copyright.php:209
+msgid "Footer social icon"
+msgstr ""
+
+#: inc/ansar/customize/industryup_customize_general.php:9
+msgid "General Settings"
+msgstr ""
+
+#: inc/ansar/customize/industryup_customize_general.php:17
+msgid "Colors"
+msgstr ""
+
+#: inc/ansar/customize/industryup_customize_general.php:26
+msgid "Breadcrumb"
+msgstr ""
+
+#: inc/ansar/customize/industryup_customize_general.php:63
+msgid "Background Attachment"
+msgstr ""
+
+#: inc/ansar/customize/industryup_customize_general.php:68
+msgid "Inherit"
+msgstr ""
+
+#: inc/ansar/customize/industryup_customize_general.php:69
+msgid "Scroll"
+msgstr ""
+
+#: inc/ansar/customize/industryup_customize_general.php:70
+msgid "Fixed"
+msgstr ""
+
+#: inc/ansar/customize/industryup_customize_general.php:85
+msgid "Site Title Size"
+msgstr ""
+
+#: inc/ansar/customize/industryup_customize_header.php:8
+msgid "Header Settings"
+msgstr ""
+
+#: inc/ansar/customize/industryup_customize_header.php:15
+msgid "Site Identity"
+msgstr ""
+
+#: inc/ansar/customize/industryup_customize_header.php:25
+msgid "Menu Button"
+msgstr ""
+
+#: inc/ansar/customize/industryup_customize_header.php:43
+msgid "Hide/Show"
+msgstr ""
+
+#: inc/ansar/customize/industryup_customize_header.php:60
+#: inc/ansar/customizer-repeater/class/customizer-repeater-control.php:280
+#: inc/ansar/customizer-repeater/class/customizer-repeater-control.php:426
+msgid "Button Text"
+msgstr ""
+
+#: inc/ansar/customize/industryup_customize_header.php:77
+msgid "Button Link"
+msgstr ""
+
+#: inc/ansar/customize/industryup_customize_header.php:96
+msgid "Open link in new tab"
+msgstr ""
+
+#: inc/ansar/customize/industryup_customize_sections.php:22
+msgid "Homepage section settings"
+msgstr ""
+
+#: inc/ansar/customize/industryup_plugin_recommend.php:13
+msgid "Recommended Actions"
+msgstr ""
+
+#: inc/ansar/customize/industryup_plugin_recommend.php:14
+msgid "Recommended Plugin"
+msgstr ""
+
+#: inc/ansar/customize/industryup_plugin_recommend.php:15
+msgid "Install and Activate"
+msgstr ""
+
+#: inc/ansar/customizer-notice/industryup-customizer-notify.php:112
+msgid "Activating"
+msgstr ""
+
+#: inc/ansar/customizer-repeater/class/customizer-repeater-control.php:33
+msgid "Add new field"
+msgstr ""
+
+#: inc/ansar/customizer-repeater/class/customizer-repeater-control.php:38
+msgid "Customizer Repeater"
+msgstr ""
+
+#: inc/ansar/customizer-repeater/class/customizer-repeater-control.php:257
+#: inc/ansar/customizer-repeater/class/customizer-repeater-control.php:404
+msgid "Title"
+msgstr ""
+
+#: inc/ansar/customizer-repeater/class/customizer-repeater-control.php:264
+#: inc/ansar/customizer-repeater/class/customizer-repeater-control.php:411
+msgid "Subtitle"
+msgstr ""
+
+#: inc/ansar/customizer-repeater/class/customizer-repeater-control.php:271
+#: inc/ansar/customizer-repeater/class/customizer-repeater-control.php:418
+msgid "Description"
+msgstr ""
+
+#: inc/ansar/customizer-repeater/class/customizer-repeater-control.php:291
+#: inc/ansar/customizer-repeater/class/customizer-repeater-control.php:436
+#: inc/ansar/customizer-repeater/class/customizer-repeater-control.php:625
+#: inc/ansar/customizer-repeater/class/customizer-repeater-control.php:647
+msgid "Link"
+msgstr ""
+
+#: inc/ansar/customizer-repeater/class/customizer-repeater-control.php:310
+#: inc/ansar/customizer-repeater/class/customizer-repeater-control.php:454
+msgid "Video Url"
+msgstr ""
+
+#: inc/ansar/customizer-repeater/class/customizer-repeater-control.php:332
+#: inc/ansar/customizer-repeater/class/customizer-repeater-control.php:396
+msgid "Color"
+msgstr ""
+
+#: inc/ansar/customizer-repeater/class/customizer-repeater-control.php:342
+#: inc/ansar/customizer-repeater/class/customizer-repeater-control.php:465
+msgid "Shortcode"
+msgstr ""
+
+#: inc/ansar/customizer-repeater/class/customizer-repeater-control.php:350
+#: inc/ansar/customizer-repeater/class/customizer-repeater-control.php:474
+msgid "Designation"
+msgstr ""
+
+#: inc/ansar/customizer-repeater/class/customizer-repeater-control.php:366
+#: inc/ansar/customizer-repeater/class/customizer-repeater-control.php:485
+msgid "Delete field"
+msgstr ""
+
+#: inc/ansar/customizer-repeater/class/customizer-repeater-control.php:522
+msgid "Open link in new tab:"
+msgstr ""
+
+#: inc/ansar/customizer-repeater/class/customizer-repeater-control.php:533
+#: inc/ansar/customizer-repeater/class/customizer-repeater-control.php:601
+msgid "Icon"
+msgstr ""
+
+#: inc/ansar/customizer-repeater/class/customizer-repeater-control.php:538
+#, php-format
+msgid ""
+"Note: Some icons may not be displayed here. You can see the full list of "
+"icons at %1$s."
+msgstr ""
+
+#: inc/ansar/customizer-repeater/class/customizer-repeater-control.php:539
+msgid "http://fontawesome.io/icons/"
+msgstr ""
+
+#: inc/ansar/customizer-repeater/class/customizer-repeater-control.php:556
+#: inc/ansar/customizer-repeater/class/customizer-repeater-control.php:602
+msgid "Image"
+msgstr ""
+
+#: inc/ansar/customizer-repeater/class/customizer-repeater-control.php:559
+msgid "Upload Image"
+msgstr ""
+
+#: inc/ansar/customizer-repeater/class/customizer-repeater-control.php:568
+msgid "Slide Format"
+msgstr ""
+
+#: inc/ansar/customizer-repeater/class/customizer-repeater-control.php:572
+msgid "Standard"
+msgstr ""
+
+#: inc/ansar/customizer-repeater/class/customizer-repeater-control.php:576
+msgid "Aside"
+msgstr ""
+
+#: inc/ansar/customizer-repeater/class/customizer-repeater-control.php:580
+msgid "Quote"
+msgstr ""
+
+#: inc/ansar/customizer-repeater/class/customizer-repeater-control.php:584
+msgid "Status"
+msgstr ""
+
+#: inc/ansar/customizer-repeater/class/customizer-repeater-control.php:588
+msgid "Video"
+msgstr ""
+
+#: inc/ansar/customizer-repeater/class/customizer-repeater-control.php:598
+msgid "Image type"
+msgstr ""
+
+#: inc/ansar/customizer-repeater/class/customizer-repeater-control.php:603
+msgid "None"
+msgstr ""
+
+#: inc/ansar/customizer-repeater/class/customizer-repeater-control.php:611
+msgid "Social icons"
+msgstr ""
+
+#: inc/ansar/customizer-repeater/class/customizer-repeater-control.php:628
+#: inc/ansar/customizer-repeater/class/customizer-repeater-control.php:658
+msgid "Remove Icon"
+msgstr ""
+
+#: inc/ansar/customizer-repeater/class/customizer-repeater-control.php:633
+#: inc/ansar/customizer-repeater/class/customizer-repeater-control.php:666
+msgid "Add Icon"
+msgstr ""
+
+#: inc/ansar/enqueue.php:139 inc/ansar/enqueue.php:143
+#: inc/ansar/enqueue.php:147 inc/ansar/enqueue.php:153
+#: inc/ansar/enqueue.php:165 inc/ansar/enqueue.php:171
+#: inc/ansar/enqueue.php:187 inc/ansar/enqueue.php:195
+#, php-format
+msgid "%1$s: %2$s"
+msgstr ""
+
+#: inc/ansar/enqueue.php:159
+#, php-format
+msgid "%1$s %2$s"
+msgstr ""
+
+#: inc/ansar/industryup-admin-plugin-install.php:26
+#, php-format
+msgid "Welcome! Thanks for installing %1$s!"
+msgstr ""
+
+#: inc/ansar/industryup-admin-plugin-install.php:31
+msgid ""
+"Clicking on get started will install & activate and get Defult demo of "
+"Industryup."
+msgstr ""
+
+#: inc/ansar/industryup-admin-plugin-install.php:33
+msgid "Get started with Industryup"
+msgstr ""
+
+#: inc/ansar/industryup-admin-plugin-install.php:42
+msgid ""
+"Clicking on Get Elementor Demos Button and Get Elementor Premade Template"
+msgstr ""
+
+#: inc/ansar/industryup-admin-plugin-install.php:43
+msgid "Get Elementor Demos"
+msgstr ""
+
+#: inc/ansar/industryup-custom-navwalker.php:207
+msgid "Add a menu"
+msgstr ""
+
+#: search.php:19
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: search.php:24
+msgid "Nothing Found"
+msgstr ""
+
+#: search.php:26
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Industryup"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://themeansar.com/free-themes/industryup/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Industryup WordPress theme ideal for a business or perfect solutions for all "
+"types of factory, Industry, Industrial, Construction, Engineering, Machinery "
+"Business, Commodity Business, Power, Rail Business, Airplane, Ship Business, "
+"Oil & Gas Business, Petroleum websites, Agricluture. The theme is "
+"responsive, WPML, Retina ready, SEO friendly"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "themeansar"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://themeansar.com"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Homepage"
+msgstr ""

@@ -1,0 +1,65 @@
+/*.wl .wl-faqa-single-accordion {
+	position: relative;
+	margin-bottom: 15px;
+}*/
+.wl .wl-faqa-accordion-title {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	/*background: #f1edfe;*/
+	color: #7a7572;
+	font-weight: bold;
+	/*height: 50px;*/
+	cursor: pointer;
+}
+.wl .wl-faqa-accordion-title span {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	float: right;
+	/*background: #551FE8;*/
+	width: 50px;
+	/*height: 50px;*/
+	font-size: 30px;
+	font-weight: 100;
+}
+.wl .wl-faqa-single-accordion.open .wl-faqa-accordion-title{
+	background: #feeff2;
+}
+.wl .wl-faqa-single-accordion.open .wl-faqa-accordion-title span {
+    background: #e9345f;
+	color:#fff;
+}
+.wl-faqa-accordion-title span:before {
+    content: "+";
+	color:#fff;
+}
+.wl .wl-faqa-single-accordion.open .wl-faqa-accordion-title span::before {
+	content: "-";
+	color: #fff;
+	font-size: 40px;
+	height: 65px;
+}
+.wl .wl-faqa-accordion-title {
+	font-size: 17px;
+}
+.wl .wl-faqa-single-accordion.open .wl-faqa-accordion-title {
+	font-size: 17px;
+}
+.wl .wl-faqa-accordion-title h2 {
+	font-size: 15px;
+	display: inline-block;
+	padding: 15px;
+	line-height: 1;
+	color: #212121;
+	margin: 0;
+	font-weight: 600;
+}
+.wl .wl-faqa-accordion-content {
+	overflow: hidden;
+	padding: 18px;
+	color: #212121;
+}
+.wl .item-data{
+	display: none;
+}

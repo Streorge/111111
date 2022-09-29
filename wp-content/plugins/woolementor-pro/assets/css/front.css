@@ -1,0 +1,202 @@
+
+
+/*Quick View*/
+.wl .wcd-quick-checkout-wrap button,
+.wl .wcd-quick-view-wrap button {
+    width: 35px;
+    height: 35px;
+    line-height: 32px;
+    border-radius: 100%;
+    display: inline-block;
+    font-size: 13px;
+    cursor: pointer;
+    color: var(--wl-gray);
+    border: 1px solid var(--wl-light-border);
+    transition: .4s;
+    padding: 0;
+}
+.wl .wcd-quick-checkout-wrap button:hover,
+.wl .wcd-quick-view-wrap button:hover {
+    color: #fff;
+    border: 1px solid transparent;
+    background-color: var(--wl-black);
+}
+
+/* 1. Ensure this sits above everything when visible */
+.wcd-quick-view-modal {
+  position: fixed;
+  z-index: 10000;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wcd-quick-view-modal.is-visible {
+    visibility: visible;
+}
+
+.wcd-quick-view-modal-overlay {
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: hsla(0, 0%, 0%, 0.5);
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s linear 0.3s, opacity 0.3s;
+}
+
+.wcd-quick-view-modal.is-visible .wcd-quick-view-modal-overlay {
+  opacity: 1;
+  visibility: visible;
+  transition-delay: 0s;
+}
+.wcd-quick-view-modal-wrapper {
+  /* position: fixed; */
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  width: 50%;
+  margin-left: 0;
+  background-color: #fff;
+  box-shadow: 2px 4px 30px 0 #00000121;
+  right: 0;
+  vertical-align: middle;
+  /*overflow: scroll;*/
+}
+.wcd-quick-view-modal-inner {
+  overflow-y: scroll;
+  max-height: 800px;
+}
+.wcd-quick-view-modal-transition {
+  transition: all 0.3s 0.12s;
+  transform: translateY(-10%);
+  opacity: 0;
+}
+
+.wcd-quick-view-modal.is-visible .wcd-quick-view-modal-transition {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.wcd-quick-view-modal-header,
+.wcd-quick-view-modal-content {
+  padding: 1em;
+}
+.wcd-quick-view-modal-header {
+  position: relative;
+  background-color: transparent;
+  box-shadow: 0 1px 2px hsla(0, 0%, 0%, 0.06);
+}
+.wcd-quick-view-modal-close {
+  position: absolute;
+  top: 14px;
+  right: 18px;
+  padding: 0;
+  color: #aaa;
+  background: none;
+  border: 0;
+}
+.wcd-quick-view-modal-close:hover {
+  color: #777;
+  background: transparent;
+}
+
+.wcd-quick-view-modal-heading {
+  font-size: 1.125em;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.wcd-quick-view-modal-content > *:first-child {
+  margin-top: 0;
+}
+.wcd-loader-wrapper {
+  position: fixed;
+  z-index: 10000;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #00000142;
+}
+.wcd-loader,
+.wcd-quick-view-loader {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  z-index: 999;
+}
+.wcd-loader:after,
+.wcd-quick-view-loader:after {
+  content: " ";
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 6px solid #fff;
+  border-color: #fff transparent #fff transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/*Quick View*/
+
+/*Quick Checkout*/
+.wcd-quick-checkout-wrapper {
+  position: fixed;
+  z-index: 10000;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #00000026;
+}
+.wcd-quick-checkout-wrapper.is-visible .wcd-quick-checkout-wrapper-overlay {
+  opacity: 1;
+  visibility: visible;
+  transition-delay: 0s;
+}
+.wcd-quick-checkout-wrapper.is-visible {
+  visibility: visible;
+}
+.wcd-quick-checkout-wrap-panel {
+  background-color: #fff;
+  padding: 30px;
+  overflow-y: scroll;
+  max-height: 800px;
+  position: relative;
+  max-width: 1140px;
+}
+.wl-button {
+  border: 1px solid #c36;
+  padding: 10px 15px;
+  /* border-radius: 4px; */
+  color: #c36;
+  background: #fff;
+  display: inline-block;
+  text-align: center;
+  font-size: 14px;
+}
+/*Quick Checkout*/

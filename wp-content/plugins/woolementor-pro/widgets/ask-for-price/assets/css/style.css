@@ -1,0 +1,6 @@
+.wl .wl-afp-form-container .wl-afp-form-label{
+	display: block;
+}
+.wl .wl-afp-form-container .wl-afp-form-inputs.hidden{
+	display: none;
+}

@@ -1,0 +1,149 @@
+.wl .wl-pricing-table-regular {
+    border: 1px solid #c8b4ff;
+    background-color: transparent;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    transition: .5s;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+/*feature mood design start*/
+
+.wl .wl-pricing-table-regular:hover .wl-ptr-title {
+    color: #fff;
+}
+
+.wl .wl-pricing-table-regular:hover .wl-ptr-featured {
+    color: #fff;
+}
+
+.wl .wl-ptr-featured {
+    position: absolute;
+    background: var(--wl-navy-blue);
+    color: #fff;
+    width: 200px;
+    text-align: center;
+    transform: rotate(-47deg);
+    top: 29px;
+    left: -58px;
+    font-size: 14px;
+}
+
+/*feature mood design end*/
+.wl .wl-pricing-table-regular:hover {
+    background-color: var(--wl-navy-blue);
+    transition: .7s;
+}
+.wl .wl-pricing-table-regular:hover .wl-ptr-featured{
+    background: #f6e902;
+    color: rgb(0 29 90);
+}
+
+
+.wl .wl-pricing-table-regular:hover .wl-ptr-pricing-area, .wl .wl-pricing-table-regular:hover .wl-ptr-feature-area {
+    background-color: transparent;
+    color: #fff;
+}
+
+.wl .wl-pricing-table-regular:hover .wl-ptr-price-area, .wl .wl-pricing-table-regular:hover .wl-ptr-pricing-period {
+    color: #fff;
+}
+
+.wl .wl-pricing-table-regular:hover .wl-ptr-purchase {
+    background-color: #fff;
+    border: 1px solid #fff;
+}
+
+.wl .wl-pricing-table-regular:hover .wl-ptr-purchase-btn {
+    color: var(--wl-navy-blue);
+}
+
+.wl .wl-ptr-pricing-area {
+    text-align: center;
+    padding: 35px;
+}
+
+.wl .wl-ptr-price-area {
+    color: #212121;
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.theme-Divi .wl-ptr-price-area {
+    margin-bottom: 20px;
+}
+
+.wl .wl-ptr-price-area .wl-ptr-sale-on {
+    font-size: 20px;
+}
+
+.wl .wl-ptr-currency {
+}
+
+.wl .wl-ptr-price {
+}
+
+.wl .wl-ptr-pricing-period {
+    color: #212121;
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 5px;
+    letter-spacing: 1.7px;
+}
+
+.wl .wl-ptr-feature-area {
+    padding: 30px 30px;
+    color: #212121;
+    background: transparent;
+}
+
+.wl .wl-ptr-title {
+    margin: 0;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: var(--wl-navy-blue);
+}
+
+.wl .wl-ptr-description {
+    font-size: 14px;
+    margin-bottom: 25px;
+    font-weight: 400;
+}
+
+.wl .wl-ptr-feature-list {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 25px;
+    margin-left: 0;
+}
+
+.wl .wl-ptr-featute {
+    font-size: 13px;
+    margin: 15px 0px;
+    font-weight: 600;
+}
+
+.wl .wl-ptrf-desc {
+    margin-left: 5px;
+}
+
+.wl .wl-ptr-purchase {
+    background-color: var(--wl-navy-blue);
+	border: 1px solid var(--wl-navy-blue);
+    text-align: center;
+    padding: 8px;
+}
+
+.wl .wl-ptr-purchase-btn {
+    display: block;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+@media only screen and (max-width : 768px) {
+    .wl .wl-ptr-pricing-area {
+        padding: 35px 10px;
+    }
+}

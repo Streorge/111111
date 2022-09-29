@@ -1,0 +1,202 @@
+/* --- Block Pricing
+-------------------------------------------------------- */
+
+.pricing-columns .wp-block-column {
+    color: var(--wp--preset--color--foreground);
+    padding-bottom: var(--wp--custom--spacing--wp-comment-horizontal);
+    padding-top: var(--wp--custom--spacing--wp-comment-horizontal);
+    padding-left: var(--wp--custom--spacing--wp-post);
+    padding-right: var(--wp--custom--spacing--wp-post);
+    -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+.pricing-columns .wp-block-column ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: var(--wp--custom--spacing--section-pricing-content);
+    margin-top: var(--wp--custom--spacing--section-pricing-content);
+}
+
+.pricing-columns .wp-block-column ul li {
+    margin-bottom: 10px;
+    padding-left: 28px;
+    position: relative;
+}
+
+.pricing-columns .wp-block-column ul li:before {
+  content: "\2713";
+  left: 0;
+  font-weight: 700;
+  position: absolute;
+}
+
+.pricing-columns:not(.pricing-two-columns) .package-amount {
+    font-size: var(--wp--custom--typography--font-size--heading-two);
+}
+
+.pricing-columns h2 > span:not(.package-month),
+.pricing-columns .package-amount {
+    font-weight: var(--wp--custom--typography--font-weight--bold);
+}
+
+.pricing-columns:not(.pricing-two-columns):not(.pricing-three-columns).wp-block-columns > .wp-block-column.popular-package {
+    position: relative;
+}
+
+.pricing-columns:not(.pricing-two-columns):not(.pricing-three-columns).wp-block-columns > .wp-block-column.popular-package:before {
+    background-color: var(--wp--preset--color--text-link);
+    color: var(--wp--preset--color--foreground);
+    content: "Popular";
+    font-size: var(--wp--preset--font-size--small);
+    line-height: var(--wp--custom--typography--line-height--paragraph);
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 4px var(--wp--custom--spacing--extra-small);
+    text-transform: uppercase;
+}
+
+
+/* --- Block Pricing Two
+-------------------------------------------------------- */
+
+.pricing-columns.pricing-two-columns .wp-block-column {
+    padding-bottom: var(--wp--custom--spacing--wp-comment-vertical);
+    padding-top: var(--wp--custom--spacing--wp-comment-vertical);
+}
+
+.pricing-columns.pricing-two-columns.wp-block-columns > .wp-block-column,
+.pricing-columns.pricing-three-columns.wp-block-columns > .wp-block-column {
+    background-color: transparent;
+    border: 1px solid var(--wp--preset--color--border-color);
+}
+
+.pricing-columns.pricing-two-columns.wp-block-columns > .wp-block-column.popular-package {
+    border: 1px solid var(--wp--preset--color--text-link);
+}
+
+.pricing-columns.pricing-two-columns.wp-block-columns > .wp-block-column.popular-package {
+    position: relative;
+}
+
+.pricing-columns.pricing-two-columns.wp-block-columns > .wp-block-column.popular-package:before {
+     /* background: var(--wp--preset--color--text-link); */
+    color: var(--wp--preset--color--foreground);
+    content: '\2605'; /* Full star in UTF-8 */
+    font-size: 24px;;
+    position: absolute;
+    top: -5px;
+    left: 5px;
+    z-index: 1;
+}
+
+.pricing-columns.pricing-two-columns.wp-block-columns > .wp-block-column.popular-package:after {
+    content: "";
+    display: inline-block;
+    left: 0;
+    position: absolute;
+    top: 0;
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    border-radius: 0;
+}
+
+.pricing-columns.pricing-two-columns.wp-block-columns > .wp-block-column.popular-package:after {
+    border-style: solid;
+    border-width: 0 0 60px 60px;
+    height: 0;
+    width: 0;
+}
+
+.pricing-columns.pricing-two-columns.wp-block-columns > .wp-block-column.popular-package:after {
+  border-color: transparent;
+    border-bottom-color: transparent;
+  border-bottom-color: var(--wp--preset--color--text-link);
+}
+
+.pricing-two-columns .pricing-label  {
+    display: inline-block;
+}
+
+.pricing-two-columns .pricing-label:after {
+    content: "";
+    border-left: 1px solid red;
+}
+
+.pricing-two-columns .wp-block-pricing-label {
+    flex-wrap: nowrap;
+    --wp--style--block-gap: 0;
+}
+
+.wp-block-pricing-label .wp-block-separator:not(.is-style-wide):not(.is-style-dots) {
+    max-width: 15%;
+    width: 100%;
+}
+
+.pricing-columns h2 > span:not(.package-month) {
+    font-weight: var(--wp--custom--typography--font-weight--bold);
+}
+
+/* --- Block Pricing Three
+-------------------------------------------------------- */
+
+.pricing-columns.pricing-three-columns.wp-block-columns > .wp-block-column {
+    padding: 0;
+}
+
+.pricing-columns.pricing-three-columns.wp-block-columns > .wp-block-column > h5,
+.pricing-columns.pricing-three-columns.wp-block-columns > .wp-block-column > h2 {
+    padding: var(--wp--custom--spacing--extra-small);
+    margin: 0;
+}
+
+.pricing-columns.pricing-three-columns.wp-block-columns > .wp-block-column > h2 {
+    border-bottom: 1px solid var(--wp--preset--color--border-color);
+    position: relative;
+}
+
+.pricing-columns > .wp-block-column > h2 {
+    white-space: nowrap !important;
+}
+
+.pricing-text {
+    width: 100%;
+}
+
+.pricing-columns.pricing-three-columns .wp-block-column ul {
+    margin-bottom: var(--wp--custom--spacing--section-pricing-content);
+    margin-top: 0;
+}
+
+.pricing-content {
+    padding-bottom: var(--wp--custom--spacing--wp-comment-vertical);
+    padding-top: var(--wp--custom--spacing--wp-comment-vertical);
+    padding-left: var(--wp--custom--spacing--wp-post);
+    padding-right: var(--wp--custom--spacing--wp-post);
+}
+
+.pricing-columns.pricing-three-columns .package-amount,
+.pricing-columns.pricing-three-columns h2 > span:not(.package-month) {
+  font-size: clamp(32px,2.4vw,42px);
+}
+
+.pricing-columns.pricing-three-columns.wp-block-columns > .wp-block-column.popular-package > h5,
+.pricing-columns.pricing-three-columns.wp-block-columns > .wp-block-column.popular-package > h2 {
+    background: var(--wp--preset--gradient--horizontal-rose-to-bean-red);
+    color: var(--wp--preset--color--foreground);
+}
+
+.pricing-columns.pricing-three-columns.wp-block-columns > .wp-block-column.popular-package > h2:before {
+    content: "";
+    width: 100%;
+    height: 1px;
+    border-top: 1px solid var(--wp--preset--color--foreground);
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0.25;
+}
